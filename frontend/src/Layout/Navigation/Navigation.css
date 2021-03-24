@@ -1,0 +1,21 @@
+.fa-bars,
+.fa-times {
+  display: none;
+}
+
+@media only screen and (max-width: 925px) {
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .fa-bars,
+  .fa-times {
+    font-size: 12pt;
+    display: block;
+    text-align: right;
+  }
+}
